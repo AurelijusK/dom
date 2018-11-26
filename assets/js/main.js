@@ -73,7 +73,7 @@ var settings = {
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+						$t.css('background-position', 'center ' + (pos * (0 * intensity)) + 'px');
 
 					});
 
@@ -207,6 +207,9 @@ var settings = {
 						slides.push($slide);
 
 					// Indicators.
+
+
+			
 						if (options.indicators) {
 
 							var $indicator_li = $('<li>' + i + '</li>').appendTo($indicators);
