@@ -2387,6 +2387,8 @@
 			display: block;
 			margin: 0 0 2rem 0;
 			width: 100%;
+			padding-top: 5%;
+			
 		}
 
 			.image.fit img {
